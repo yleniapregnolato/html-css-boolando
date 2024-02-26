@@ -133,6 +133,7 @@ h5 {
 .column {
     width: calc(100% / 3);
     padding: 10px;
+    margin-bottom: 20px;
 }
 
 .item {
