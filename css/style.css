@@ -1,5 +1,111 @@
+/* reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+/* /reset */
+
+/* common */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1100px;
+    /* debug */
+    border: 1px solid black;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+/* /common */
+
+/* utilities */
+.font {
+    color: white;
+    font-size: 0.8rem;
+    padding: 5px;
+}
+/* /utilities */
+
+/* main */
+p {
+    font-size: 0.7rem;
+    color: red;
+}
+p > .grey {
+    text-decoration: line-through;
+    color: grey;
+}
+h5 {
+    color: grey;
+}
+/* img */
+.img-1a {
+    display: block;
+}
+.img-1b {
+    display: none;
+}
+
+.item:hover .img-1a {
+    display: none;
+}
+
+.item:hover .img-1b {
+    display: block;
+}
+
+.heart {
+    display: none;
+}
+
+.item:hover .heart {
+    display: inline-block;
+}
+/* /img */
+
+/* layout */
+.column {
+    width: calc(100% / 3);
+    padding: 10px;
+}
+
+.item {
+    position: relative;
+
+}
+
+/* /layout */
+.heart {
+    background-color: white;
+    padding: 10px;
+    position: absolute;
+    top: 5px;
+    right: 0;   
+}
+.discount-50 {
+    background-color: red;
+    position: absolute;
+    left: 10px;
+    bottom: 30px;
+}
+
+.sustainable {
+    background-color: green;
+    position: absolute;
+    left: 50px;
+    bottom: 30px;
+}
+
+.sustainable-green {
+    background-color: green;
+    position: absolute;
+    left: 10px;
+    bottom: 30px;
 }
