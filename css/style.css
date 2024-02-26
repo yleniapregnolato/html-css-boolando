@@ -152,14 +152,14 @@ h5 {
 .discount {
     background-color: red;
     position: absolute;
-    left: 10px;
+    left: 0;
     bottom: 30px;
 }
 
 .sustainable {
     background-color: green;
     position: absolute;
-    left: 55px;
+    left: 45px;
     bottom: 30px;
 }
 
