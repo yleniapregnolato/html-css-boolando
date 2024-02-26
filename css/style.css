@@ -9,6 +9,9 @@ img {
     max-width: 100%;
 }
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
 :root {
     --mandarin-color: #FF6900;
     --footer-color: #1A1A1A;
