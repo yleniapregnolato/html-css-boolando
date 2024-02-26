@@ -17,14 +17,13 @@ body {
     --footer-color: #1A1A1A;
 }
 /* /reset */
-
 .header {
     display: flex;
     justify-content: space-around;
     padding: 30px;
-    margin-bottom: 20px;
     height: 80px;
     background-color: var(--mandarin-color);
+    margin-bottom: 30px;
 }
 
 ul {
@@ -35,8 +34,6 @@ ul {
     width: 80%;
     margin: 0 auto;
     max-width: 1100px;
-    /* debug */
-    /* border: 1px solid black; */
 }
 
 .flex {
