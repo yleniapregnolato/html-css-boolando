@@ -69,7 +69,6 @@ a {
 
 .logo {
     display: flex;
-    width: 60%;
     justify-content: center;
 }
 
@@ -174,6 +173,7 @@ h5 {
 footer {
     background-color: var(--footer-color);
     padding: 30px;
+    font-size: 0.75rem;
 }
 
 .footer-banner {
@@ -193,4 +193,5 @@ footer {
     justify-content: space-around;
     gap: 20px;
 }
+
 /* /footer */
