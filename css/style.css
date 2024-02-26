@@ -68,6 +68,10 @@ h5 {
 .item:hover .heart {
     display: inline-block;
 }
+
+.heart:hover {
+    color: red;
+}
 /* /img */
 
 /* layout */
