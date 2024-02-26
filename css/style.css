@@ -11,10 +11,11 @@ img {
 
 :root {
     --mandarin-color: #FF6900;
+    --footer-color: #1A1A1A;
 }
 /* /reset */
 
-header {
+.header {
     display: flex;
     justify-content: space-around;
     padding: 30px;
@@ -22,6 +23,7 @@ header {
     height: 80px;
     background-color: var(--mandarin-color);
 }
+
 ul {
     list-style: none;
 }
@@ -86,6 +88,12 @@ p {
 p > .grey {
     text-decoration: line-through;
     color: grey;
+}
+
+h3 {
+    color: white;
+    margin-bottom: 10px;
+    text-align: left
 }
 h5 {
     color: grey;
@@ -158,3 +166,28 @@ h5 {
     left: 10px;
     bottom: 30px;
 }
+
+/* footer */
+footer {
+    background-color: var(--footer-color);
+    padding: 30px;
+}
+
+.footer-banner {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-icon {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.footer-list {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+/* /footer */
